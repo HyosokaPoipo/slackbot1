@@ -2,6 +2,9 @@
   "name": "poiposlackbot",
   "version": "0.0.1",
   "description": "Simple testing Node server",
+  "scripts" : {
+				"start": "node app"
+	},
   "main": "app.js",
   "author": "Hisoka Poipo",
   "license": "MIT",
