@@ -1,4 +1,6 @@
-var express = require('express');
+var express = require('express')
+, router = require('routes')
+;
 var bodyParser = require('body-parser');
  
 var app = express();
@@ -15,6 +17,7 @@ app.listen(port, function () {
 });
 
 app.post('/poipo', function (req, res, next) {
+  console.log(req.body);
   var userName = req.body.user_name;
   var botPayload = {
     text : 'Hello ' + userName + ', You are using slack bot poipo locally'

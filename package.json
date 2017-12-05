@@ -6,8 +6,9 @@
   "author": "Hisoka Poipo",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.x.x",
-    "body-parser": "^1.x.x",
-    "request": "2.56.x"
+    "request": "2.56.x",
+    "routes": "^2.1.0"
   }
 }
