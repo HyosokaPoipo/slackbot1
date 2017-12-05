@@ -20,7 +20,7 @@ app.post('/poipo', function (req, res, next) {
   console.log(req.body);
   var userName = req.body.user_name;
   var botPayload = {
-    text : 'Hello ' + userName + ', You are using slack bot poipo locally'
+    text : 'Hello ' + userName + ', Good luck... Let\s make Astronaut better everyday'
   };
   // Loop otherwise..
   if (userName !== 'slackbot') {
