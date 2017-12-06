@@ -3,7 +3,8 @@ var express = require('express'),
  hisoka_env = require('node-env-file')
 ;
 var bodyParser = require('body-parser');
- 
+
+hisoka_env(__dirname+'/.env');
 var app = express();
 var port = process.env.PORT || 1337;
  
