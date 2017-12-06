@@ -1,5 +1,6 @@
-var express = require('express')
-, router = require('routes')
+var express = require('express'),
+ router = require('routes'),
+ hisoka_env = require('node-env-file')
 ;
 var bodyParser = require('body-parser');
  

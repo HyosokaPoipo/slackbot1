@@ -2,15 +2,16 @@
   "name": "poiposlackbot",
   "version": "0.0.1",
   "description": "Simple testing Node server",
-  "scripts" : {
-				"start": "node app"
-	},
+  "scripts": {
+    "start": "node app"
+  },
   "main": "app.js",
   "author": "Hisoka Poipo",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.x.x",
+    "node-env-file": "^0.1.8",
     "request": "2.56.x",
     "routes": "^2.1.0"
   }
